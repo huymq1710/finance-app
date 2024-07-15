@@ -18,7 +18,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client"]
+    "types": ["vite/client"] // for using .env.local environment
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
